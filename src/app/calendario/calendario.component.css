@@ -1,0 +1,40 @@
+.setembro {
+  display: grid;
+  grid-template-columns: 1000px;
+  justify-content: center;
+  align-content: center;
+  margin-top: 2%;
+}
+
+.imagem-setembro {
+  width: 950px;
+  border-radius: 10px;
+  border: solid 1px;
+}
+
+.conteudo-setembro {
+  display: grid;
+  grid-template-columns: 600px 300px;
+  gap: 50px;
+}
+
+.matListItemTitle {
+  font-size: 18px;
+}
+
+.horario {
+  grid-column-start: 2;
+  border-radius: 10px;
+  padding: 10px;
+  background-color: rgba(228, 243, 255, 0.568);
+  height: 150px;
+  margin-top: 5%;
+}
+
+.horario h4 {
+  font-weight: bold;
+}
+
+.escala {
+  grid-column-start: 1;
+}

@@ -1,0 +1,14 @@
+.logo-terreiro {
+  height: 50px;
+  width: 50px;
+  margin-right: 15px;
+}
+
+.sidenav-container {
+  height: calc(205vh - 115vh);
+}
+
+.sidenav {
+  width: 300px;
+  background-color: #ccdde9;
+}

@@ -1,0 +1,35 @@
+.sidenav-container {
+  height: 100%;
+}
+
+.sidenav {
+  width: 200px;
+}
+
+.sidenav .mat-toolbar {
+  background: inherit;
+}
+
+.mat-toolbar.mat-primary {
+  position: sticky;
+  top: 0;
+  z-index: 1;
+}
+
+.corpo-inicio {
+  margin-top: 2%;
+  display: grid;
+  grid-template-columns: 950px;
+  grid-gap: 30px;
+  justify-content: center;
+  align-items: center;
+}
+
+.corpo-inicio-item-imagem {
+  width: 800px;
+}
+
+.corpo-inicio-item-conteudo {
+  text-align: justify;
+  width: 800px;
+}

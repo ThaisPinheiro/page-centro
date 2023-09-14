@@ -1,0 +1,18 @@
+.rodape {
+  display: grid;
+  grid-template-columns: 1fr;
+}
+
+.mat-toolbar {
+  height: 35px;
+}
+
+p mat-toolbar {
+  justify-content: center;
+  align-items: center;
+}
+
+.texto-rodape {
+  text-align: center;
+  font-size: 12px;
+}

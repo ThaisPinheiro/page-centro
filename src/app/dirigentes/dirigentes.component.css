@@ -1,0 +1,59 @@
+@import url('https://fonts.googleapis.com/css2?family=Lemonada&display=swap');
+
+.card {
+  max-width: 450px;
+  max-height: 700px;
+}
+
+.header-image {
+  background-image: url('../../assets/avatar.png');
+  background-size: cover;
+}
+
+.card-dirigentes {
+  display: grid;
+  grid-template-columns: 500px 500px 500px;
+  gap: 30px;
+  justify-content: center;
+  margin-top: 10px;
+}
+
+.mat-card-image {
+  height: 400px;
+  width: 350px;
+  border-radius: 10px;
+  margin: 20px;
+  display: grid;
+  justify-content: center;
+  align-content: center;
+}
+
+#img-madrinha {
+  width: 350px;
+}
+
+.divider {
+  margin: 15px 50px 0px 50px;
+}
+
+.homenagem {
+  display: grid;
+  grid-template-columns: 500px;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 10px;
+}
+
+#homenagem {
+  max-width: 600px;
+}
+
+h2 {
+  font-family: 'Lemonada', cursive;
+  font-weight: bold;
+  display: grid;
+  justify-content: center;
+  align-items: center;
+  margin-top: 1%;
+  color: #244B75;
+}
