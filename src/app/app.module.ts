@@ -37,6 +37,6 @@ import { CalendarioComponent } from './calendario/calendario.component';
     MatCardModule
   ],
   providers: [],
-  bootstrap: [AppComponent]
+  bootstrap: [AppComponent],
 })
 export class AppModule { }
